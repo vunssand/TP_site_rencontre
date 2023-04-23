@@ -1,0 +1,98 @@
+/* Reset de la marge et du rembourrage pour le corps de la page */
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style de la page de profil */
+  .page_profil {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Centrer le formulaire principal */
+  .main_form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Style de la section du formulaire */
+  section {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    padding: 2rem;
+    text-align: center;
+    width: 400px;
+  }
+  
+  /* Style de la récupération du profil */
+  .recup-profil {
+    margin-bottom: 2rem;
+  }
+  
+  .recup-profil h2 {
+    color: #393f81;
+    font-size: 1.5rem;
+    font-weight: normal;
+    margin: 0;
+  }
+  
+  /* Style du formulaire */
+  .form-text {
+    color: #393f81;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+  }
+  
+  .form-champs {
+    margin-bottom: 1.5rem;
+    position: relative;
+  }
+  
+  .form-conn,
+  .form-mdp {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    font-size: 1rem;
+    outline: none;
+    padding: 0.5rem 0.2rem;
+    width: 100%;
+  }
+  
+  .form-label {
+    color: #ccc;
+    font-size: 1rem;
+    position: absolute;
+    top: 0.5rem;
+    left: 0.2rem;
+    transition: all 0.3s ease-out;
+  }
+  
+  .form-champs:focus-within .form-label,
+  .form-conn:not(:placeholder-shown) + .form-label,
+  .form-mdp:not(:placeholder-shown) + .form-label {
+    color: #393f81;
+    font-size: 0.8rem;
+    transform: translateY(-1rem);
+  }
+  
+  /* Style du bouton de mise à jour */
+  .btn-maj {
+    background-color: #393f81;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    transition: all 0.3s ease-out;
+  }
+  
+  .btn-maj:hover {
+    background-color: #1d1f40;
+  }
+  

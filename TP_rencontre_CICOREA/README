@@ -1,0 +1,39 @@
+Présentation
+- Ce projet m'a permi de prendre en main et de comprendre la structure MVC dans le cadre de la création d'une application de rencontre
+- La structure MVC permet d'organiser les fichiers sources en 3 principales parties : 
+
+                                        - Les modèles
+                                        - La vue
+                                        - Les controlleurs
+
+- Parmi ces dernières, chacun ont leur but précis ( par exemple la vue contient toutes les pages html qui vont être affichées pour l'utilisateur,
+  ou encore les controlleurs qui permettent de lier les modèles avec la vue et d'ainsi faire transter les données nécessaires au fonctionnement 
+  de l'application ( entre autre liaison avec la base de données )).
+
+
+Problèmes encontrés
+- Par manque de temps et de compréhension par rapports aux vues et beaucoup d'erreurs futiles bloquant le fonctionnement de l'application, elle n'a malheureusement pas pu être 
+  terminée complètement, car je n'ai pas été en mesure de toutes les résoudre à temps, de par mes lacunes en matière de developpement web.
+
+- Néanmoins, la partie back-end est finalisées et la plupart de fonctionnalités y sont présentes, comme les fontions de récupération d'informations 
+  utilisateur, l'envoi de données vers la base de données, la fonction d'autoload ( permettant de charger les pages désirées par l'utilisateurs ) étant fonctionnelle, ou encore 
+  le fichier de redirection vers une autre page ( Redirection.php ).
+
+- Les deux controlleurs nécéssaires selon moi y sont également, "User.php" étant le controlleur des utilisateurs avec les méthodes permettant de manipuler leur données
+  de pseudo, mot de passe... lors de l'inscription, de la connexion ou encore de la mise à jour du profil, et "Controller.php" apportant une structure Controllers qui permet de manipuler
+  des données de classes de manière similaire au langage de programmation java.
+
+
+Princpipe de fonctionnement
+
+- L'opération nécéssite un server web et SQL afin d'éxécuter les fichiers sources ( ex: xampp ), ce dossier de TP devant être déplacé vers le repertoire 'htdocs' avant utilisation.
+- Taper l'url suivante : localhost/TP_rencontre_CICOREA/index.html.php ( ce fichier ne voulant pas s'éxécuter à cause d'erreurs, la page ne devrait pas s'afficher malheureusement ).
+
+
+Conclusion
+
+- Malgré le non-fonctionnement de l'application, j'ai tout de même appris énormément en réalisant ce TP, moi-même ne m'étant jamais interessé au développement web.
+- Je voudrais que mon travail soit quand même valorisé car en partant de 0 cela représente beaucoup de travail pour moi, je ne m'attends tout de même pas à une bonne note mais j'estime 
+  avoir fait de mon mieux pour réaliser ce projet malgré un grand manque de temps entre les autres matières, notre projet annuel et l'alternance.
+
+  
